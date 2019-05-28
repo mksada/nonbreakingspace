@@ -1,0 +1,17 @@
+{
+    "name": "ksadam/latte-nonbreaking-space",
+    "description": "Adding non-breaking space to string where it is necessary",
+    "keywords": ["non-breaking space", "latte", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Ksada",
+            "email": "m.ksada@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ksadam\\NonBreakingSpace\\": "src/"
+        }
+    }
+}
