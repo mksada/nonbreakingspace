@@ -1,10 +1,5 @@
 # How to use filter with Nette
 
-Register filter in ```config.neon``` as a service:
-```yaml
-services:
-    - Ksadam\Latte\NonBreakingSpace
-```
 Inject filter into presenter:
 ```php
 use Ksadam\Latte\NonBreakingSpace;
